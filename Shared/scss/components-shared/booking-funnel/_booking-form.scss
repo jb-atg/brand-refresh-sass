@@ -87,7 +87,7 @@ $booking-colour-error: #dd1215;
             }
 
             &__label {
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
                 font-weight: 500;
                 color: $proj-colour-12;
             }
@@ -119,7 +119,7 @@ $booking-colour-error: #dd1215;
             }
 
             &__item {
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
                 font-weight: 500;
 
                 &--valign-top {
@@ -134,7 +134,7 @@ $booking-colour-error: #dd1215;
 
             &__item-detail {
                 display: block;
-                font-family: $font-family-primary;
+                font-family: $font-family-body;
                 font-weight: 300;
             }
 
@@ -281,7 +281,7 @@ $booking-colour-error: #dd1215;
 
                 &__amount {
                     font-size: 2rem;
-                    font-family: $font-family-secondary;
+                    font-family: $font-family-body;
                     font-weight: 500;
 
                     @include breakpoint(xxs-max) {

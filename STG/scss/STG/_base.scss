@@ -86,13 +86,13 @@
         line-height: 3rem;
 
         &--primary {
-            $font-family-primary: 'Arial' !default;
-            font-family: $font-family-primary;
+            $font-family-body: 'Arial' !default;
+            font-family: $font-family-body;
         }
 
         &--secondary {
-            $font-family-secondary: 'Arial' !default;
-            font-family: $font-family-secondary;
+            $font-family-body: 'Arial' !default;
+            font-family: $font-family-body;
         }
 
         &--tertiary {

@@ -1,7 +1,7 @@
 ﻿.footer-cta-contact {
     color: $proj-colour-05;
     text-transform: uppercase;
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     text-align: right;
 
     .footer-cta-contact-link {
@@ -17,7 +17,7 @@
 
         &:hover {
             color: $footer-cta-hover-colour;
-            font-family: $font-family-secondary;
+            font-family: $font-family-body;
             text-decoration: none;
         }
     }

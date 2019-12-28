@@ -71,7 +71,7 @@
             &:focus,
             &:active {
                 text-decoration: none;
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
                 color: $global-nav-font-colour-hover;
                 opacity: $global-nav-font-opacity-hover;
             }
@@ -79,7 +79,7 @@
     }
 
     .login-dropdown {
-        font-family: $font-family-secondary;
+        font-family: $font-family-body;
         margin: -12px;
         padding: 12px;
 
@@ -94,7 +94,7 @@
 
             i,
             span {
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
                 color: $global-nav-font-colour-hover;
                 opacity: $global-nav-font-opacity-hover;
             }

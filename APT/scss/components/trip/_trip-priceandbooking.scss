@@ -52,7 +52,7 @@
         &__link--back {
             cursor: pointer;
             font-size: 16px;
-            font-family: $font-family-secondary;
+            font-family: $font-family-body;
             color: $proj-colour-15;
             position: relative;
             padding-left: 30px;
@@ -68,7 +68,7 @@
             &:hover {
                 color: $proj-colour-15;
                 text-decoration: none;
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
             }
         }
     }
@@ -90,7 +90,7 @@
 
     &__section-description {
         text-transform: none;
-        font-family: $font-family-secondary;
+        font-family: $font-family-body;
         color: $proj-colour-12;
 
         @include breakpoint(xs-max) {
@@ -269,7 +269,7 @@
 
             .currency-text {
                 display: block;
-                font-family: $font-family-primary;
+                font-family: $font-family-body;
                 font-size: 14px;
                 margin-top: 5px;
             }
@@ -403,7 +403,7 @@
         display: block;
         background-color: $proj-colour-15;
         width: 100%;
-        font-family: $font-family-secondary;
+        font-family: $font-family-body;
         text-transform: uppercase;
         text-decoration: none;
         border: 2px solid transparent;
@@ -978,7 +978,7 @@
             }
 
             &__surcharge-note {
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
                 font-size: .875rem;
             }
         }
@@ -1010,7 +1010,7 @@
 
             &__surcharge-note {
                 font-size: .875rem;
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
             }
         }
 
@@ -1022,7 +1022,7 @@
                 margin-bottom: calc(-1 * (#{$card-padding} - 2px));
 
                 &__title {
-                    font-family: $font-family-secondary;
+                    font-family: $font-family-body;
                 }
             }
         }

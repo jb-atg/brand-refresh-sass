@@ -100,7 +100,7 @@
             left: 0;
             right: 0;
             color: $proj-colour-15;
-            font-family: $font-family-secondary;
+            font-family: $font-family-body;
 
             .search-filter {
                 display: inline-block;
@@ -152,7 +152,7 @@
             border: 0;
             margin: 0;
             color: $proj-colour-15;
-            font-family: $font-family-primary;
+            font-family: $font-family-body;
             border-radius: 0;
             @include placeholder(rgba(255, 255, 255, .85));
 

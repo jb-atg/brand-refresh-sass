@@ -63,7 +63,7 @@
     .signup-subtitle {
         font-size: 16px;
         line-height: 32px;
-        font-family: $font-family-primary;
+        font-family: $font-family-body;
         color: $proj-colour-12;
         margin-top: 0;
         margin-bottom: 20px;
@@ -71,7 +71,7 @@
     }
 
     .trip-name {
-        font-family: $font-family-secondary;
+        font-family: $font-family-body;
         color: $proj-colour-05;
     }
 
@@ -154,7 +154,7 @@
         text-align: center;
         margin: 0 auto;
         margin-bottom: 30px;
-        font-family: $font-family-primary;
+        font-family: $font-family-body;
         line-height: normal;
         text-transform: none;
     }

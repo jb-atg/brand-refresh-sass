@@ -40,7 +40,7 @@ h6 {
 h1 {
     // font-size 35px line-height 43px - mobile
     // font-size 40px line-height 50px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: 2.5rem;
     line-height: 3.125rem;
@@ -60,7 +60,7 @@ h1 {
 h2 {
     // font-size 31px line-height 36px - mobile
     // font-size 36px line-height 42px - tablet/desktop
-    font-family: $font-family-primary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: rem(34px);
     line-height: 2.625rem;
@@ -79,7 +79,7 @@ h2 {
 h3 {
     // font-size 28px line-height 33px - mobile
     // font-size 32px line-height 38px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-02;
     font-size: 2rem;
     line-height: 2.375rem;
@@ -93,7 +93,7 @@ h3 {
 h4 {
     // font-size 22px line-height 26px - mobile
     // font-size 26px line-height 30px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: 1.625rem;
     line-height: 1.875rem;
@@ -111,7 +111,7 @@ h4 {
 h5 {
     // font-size 21px line-height 26px - mobile
     // font-size 24px line-height 30px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: 1.5rem;
     line-height: 1.875rem;
@@ -130,7 +130,7 @@ h5 {
 h6 {
     // font-size 17px line-height 21px - mobile
     // font-size 20px line-height 24px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-02;
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -141,7 +141,7 @@ h6 {
 }
 
 .h7 {
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-12;
     line-height: 20px;
     font-size: 16px;
@@ -150,7 +150,7 @@ h6 {
 }
 
 .h8 {
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-12;
     line-height: 34px;
     font-size: 14px;
@@ -168,7 +168,7 @@ h6 {
 .heading-page {
     // font-size 35px line-height 43px - mobile
     // font-size 40px line-height 50px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-06;
     font-size: 2.5rem;
     line-height: 3.125rem;
@@ -179,7 +179,7 @@ h6 {
 .heading-section {
     // font-size 31px line-height 36px - mobile
     // font-size 36px line-height 42px - tablet/desktop
-    font-family: $font-family-primary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: 2.25rem;
     line-height: 2.625rem;
@@ -190,7 +190,7 @@ h6 {
 .heading-trip-card {
     // font-size 28px line-height 33px - mobile
     // font-size 32px line-height 38px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: 2rem;
     line-height: 2.375rem;
@@ -201,7 +201,7 @@ h6 {
 .heading-trip-card {
     // font-size 21px line-height 26px - mobile
     // font-size 24px line-height 30px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-05;
     font-size: 1.5rem;
     line-height: 1.875rem;
@@ -212,7 +212,7 @@ h6 {
 .heading-trip-card-detail {
     // font-size 15px line-height 21px - mobile
     // font-size 18px line-height 24px - tablet/desktop
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-12;
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -223,7 +223,7 @@ h6 {
 p {
     // font-size 16px - mobile
     // font-size 18px - tablet/desktop
-    font-family: $font-family-primary;
+    font-family: $font-family-body;
     font-size: 1.1rem;
     margin-bottom: 1.15rem;
     line-height: 32px;
@@ -231,13 +231,13 @@ p {
 
 strong {
     color: $proj-colour-05;
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     font-size: 16px;
     font-weight: bold;
 }
 
 .strong {
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-06;
     font-weight: bold;
 }
@@ -251,7 +251,7 @@ em {
 
 // Links
 a {
-    font-family: $font-family-secondary;
+    font-family: $font-family-body;
     color: $proj-colour-06;
     cursor: pointer;
     font-weight: bold;
@@ -269,12 +269,12 @@ a {
 
     &.link-secondary {
         font-size: 18px;
-        font-family: $font-family-primary;
+        font-family: $font-family-body;
         color: $proj-colour-06;
         text-decoration: underline;
 
         &:hover {
-            font-family: $font-family-primary;
+            font-family: $font-family-body;
             color: $proj-colour-06;
         }
 

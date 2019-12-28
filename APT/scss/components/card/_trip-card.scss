@@ -67,7 +67,7 @@ $trip-card-block-height: 50px;
             padding: 8px 15px;
             &:hover {
                 * {
-                    font-family: $font-family-secondary;
+                    font-family: $font-family-body;
                 }
             }
             @include breakpoint(sm) {
@@ -93,7 +93,7 @@ $trip-card-block-height: 50px;
         &__detail,
         &__travelclass {
             text-transform: uppercase;
-            font-family: $font-family-secondary;
+            font-family: $font-family-body;
         }
         &__date {
             white-space: nowrap;

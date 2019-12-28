@@ -169,13 +169,13 @@
 
             &__price {
                 color: $proj-colour-06;
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
             }
 
             &__deposit-amount {
                 font-size: 1.125rem;
                 margin-bottom: 0;
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
             }
 
             &__deposit-note {
@@ -297,7 +297,7 @@
             border-top-style: solid;
 
             &__deposit-amount {
-                font-family: $font-family-secondary;
+                font-family: $font-family-body;
             }
 
             &__book {
@@ -349,7 +349,7 @@
         padding: 0.625rem;
         background: $proj-colour-02;
         color: $proj-colour-15;
-        font-family: $font-family-secondary;
+        font-family: $font-family-body;
         font-size: .975rem;
         line-height: 3.875rem;
         text-align: left;

@@ -19,7 +19,7 @@
     }
     &__subheading {
         display: block;
-        font-family: $font-family-primary;
+        font-family: $font-family-body;
         font-size: 1rem;
         font-weight: 300;
         line-height: 1.5;
@@ -264,10 +264,10 @@
         line-height: 3rem;
         color: $proj-colour-05;
         &--primary {
-            font-family: $font-family-primary;
+            font-family: $font-family-body;
         }
         &--secondary {
-            font-family: $font-family-secondary;
+            font-family: $font-family-body;
         }
     }
 }
