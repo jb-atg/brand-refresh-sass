@@ -1,3 +1,53 @@
-@import 'fonts/gotham';
-@import 'fonts/helvetica';
-@import 'fonts/icomoon';
+
+/*Headings*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/fonts/gilroy-bold.woff2') format('woff2'),
+        url('./assets/fonts/gilroy-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+/*Headline and Body Copy*/
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('./assets/fonts/maison-neue-light.woff2') format('woff2'),
+        url('./assets/fonts/maison-neue-light.woff') format('woff');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('./assets/fonts/maison-neue-bold.woff2') format('woff2'),
+        url('./assets/fonts/maison-neue-bold.wof') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('./assets/fonts/maison-neue-book.woff2') format('woff2'),
+        url('./assets/fonts/maison-neue-book.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/* Pull Out */
+@font-face {
+    font-family: 'Tiempos';
+    src: url('./assets/fonts/tiempos-light.woff2') format('woff2'),
+        url('./assets/fonts/tiempos-light.woff') format('woff');
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Tiempos';
+    src: url('./assets/fonts/tiempos-regular.woff2') format('woff2'),
+        url('./assets/fonts/tiempos-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* icons */
+
+@import './assets/fonts/icomoon';
