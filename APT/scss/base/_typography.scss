@@ -25,6 +25,19 @@
     font-size: 12px;
 }
 
+// set font family for headings links and buttons
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+font-family: $font-family-heading!important;
+text-transform: unset!important;
+}
+
 // Headings
 h1,
 h2,
@@ -32,10 +45,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $font-family-heading!important;
     font-weight: normal;
     font-style: normal;
-    text-transform: unset;
 }
 
 h1 {
