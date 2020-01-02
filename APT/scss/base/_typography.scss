@@ -30,6 +30,11 @@ body, p, li {
     line-height:1.5rem!important;
 } 
 
+// global overide of text transform because this property is set in so many different places 
+html body *{
+    text-transform: unset!important;
+}
+
 // set font family for headings links and buttons
 h1,
 h2,
@@ -40,7 +45,6 @@ h6,
 a,
 button {
 font-family: $font-family-heading!important;
-text-transform: unset!important;
 }
 
 // Headings

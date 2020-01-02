@@ -13,7 +13,8 @@
 }
 
 .bg-newsletter {
-    background-image: url('/assets/images/Phoenix/APT/newsletter-background.jpg');
+  
+    background: $proj-colour-05 !important;
 
     #{$kwa-page-selector} & {
         background-image: url('/assets/images/Phoenix/APT/newsletter-background-kwa.jpg');

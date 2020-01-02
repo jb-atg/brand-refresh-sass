@@ -28,12 +28,13 @@ $trip-card-block-height: 50px;
             margin-top: -23px;
             left: 50%;
             transform: translate(-50%, 0);
-            
+            font-weight:bold;
+            text-transform:unset;
             text-align: center;
             font-size: 15px;
             padding: 2px 15px;
             white-space: nowrap;
-            color: $proj-colour-15;
+            color: $proj-colour-11;
             transition: opacity .3s ease-in-out;
             &.red {
                 background: $proj-colour-09;

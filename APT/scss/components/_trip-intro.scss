@@ -60,9 +60,10 @@
         left: 50%;
         transform: translate(-50%, 0);
         white-space: nowrap;
-        
+        font-weight:bold;
+        text-transform:unset;
         text-align: center;
-        color: $proj-colour-15;
+        color: $proj-colour-11;
         font-size: 14px;
         padding: 7.5px 20px;
 
@@ -271,7 +272,7 @@
 
         &:hover {
             * {
-                font-family: $font-family-body;
+                font-family: $font-family-heading;
             }
         }
     }

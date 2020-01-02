@@ -98,4 +98,15 @@
             }
         }
     }
+
+    .page-heading.quicksearch-hero__title {
+        text-shadow: none!important;
+        font-size:4rem;
+        line-height:1;
+    }
+    .quicksearch-hero__tagline {
+            text-shadow: none!important;
+            font-weight:bold;
+            font-size:2rem;
+    }
 }

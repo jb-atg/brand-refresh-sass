@@ -87,7 +87,7 @@
 
     .newsletter-subscription-title,
     .signup-title {
-        color: $proj-colour-02;
+        color: #fff;
         letter-spacing: 2px;
         width: 100%;
         text-align: center;
@@ -132,6 +132,7 @@
 
     .btn {
         width: 100%;
+        border-color:#fff;
     }
     // Custom styles for Tablets
     @include breakpoint(tablet-portait-custom) {
