@@ -2,12 +2,16 @@
 
     .testimonial-container {
 
-        @include overlay-background(75);
-
         padding-top: 75px;
         padding-bottom: 75px;
         position: relative;
         background-size: cover;
+        background-image: unset !important;
+        background-color: $proj-colour-09;
+
+        &:before {
+            background-color: transparent;
+        }
 
         .testimonial-content {
             position: relative;
@@ -20,10 +24,11 @@
             }
 
             &__description {
+                font-family:$font-family-pull-out;
                 margin-top: 30px;
-                color: $proj-colour-14;
+                color: $proj-colour-11;
                 font-size: 26px;
-                line-height: 50px;
+                line-height: 50px!important;
 
                 @include breakpoint(xs-max) {
                     font-size: 22px;
@@ -32,9 +37,11 @@
             }
 
             &__author {
+                font-family:$font-family-pull-out;
                 color: $proj-colour-02;
                 margin-top: 30px;
                 font-size: 22px;
+                font-weight: bold;
 
                 @include breakpoint(xs-max) {
                     font-size: 20px;

@@ -14,12 +14,13 @@ $kwa-quicksearch-hero-text-shadow: 0 5px 15px rgba(0, 0, 0, .3);
 
 
     .quicksearch-content {
+        @extend .container;
         position: absolute;
         top: 50%;
         left: 50%;
         width: 90%;
         color: $proj-colour-15;
-        text-align: center;
+        text-align: left;
         transform: translate(-50%, -50%);
 
         @include breakpoint(sm) {
