@@ -2,15 +2,15 @@
     display: inline-block;
     padding: 16px 25px;
     outline: none;
-    border: 0;
-    font-family: $font-family-body;
+    border: 1px solid transparent;
+    font-family: $font-family-heading;
     color: $button-text-primary;
     font-size: 18px;
     line-height: 18px;
     border-radius: 7px;
     
     white-space: normal;
-    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, .28);
+    box-shadow: unset;
     transition: all .3s ease-in-out;
     text-align: center;
 
@@ -26,7 +26,7 @@
     &:focus,
     &:active,
     &.active {
-        font-family: $font-family-body;
+        font-family: $font-family-heading;
         color: $button-text-primary;
     }
 }
@@ -46,8 +46,9 @@
     }
 
     &.btn--secondary {
-        color: $button-text-primary;
+        color: $button-text-secondary;
         background: $button-bg-secondary;
+        border-color:$button-text-secondary;
 
         .no-touchevents &:hover,
         .touchevents &:focus,
@@ -66,57 +67,8 @@
         }
     }
 
-    &.btn--tertiary {
-        color: $button-text-secondary;
-        background: $button-bg-tertiary;
-
-        .no-touchevents &:hover,
-        .touchevents &:active,
-        .touchevents &:focus {
-            background: $button-bg-primary--hover;
-            color: $button-text-primary;
-        }
-    }
-
-    &.btn--quaternary {
-        color: $button-text-primary;
-        background: transparent;
-        border: 1px solid $proj-colour-15;
-
-        .no-touchevents &:hover,
-        .touchevents &:focus {
-            background: $button-bg-primary;
-            border: 1px solid $proj-colour-02;
-        }
-
-        .touchevents &:active,
-        &.active {
-            background: $button-bg-primary;
-            border: 1px solid $proj-colour-02;
-        }
-    }
-
-    &.btn--quinary {
-        color: $button-text-tertiary;
-        background: $button-bg-quaternary;
-
-        .no-touchevents &:hover,
-        .touchevents &:active,
-        .touchevents &:focus {
-            color: $button-text-primary;
-            background: $button-bg-secondary--hover;
-        }
-    }
-
-    &.btn--senary { // Gray button
-        color: $button-text-primary;
-        background: $button-bg-senary;
-
-        .no-touchevents &:hover,
-        .touchevents &:active,
-        .touchevents &:focus {
-            background: $button-bg-senary--hover;
-        }
+    &.btn--tertiary,  &.btn--quaternary,   &.btn--quinary, &.btn--senary {
+        @extend .btn--secondary;
     }
 
     &.btn--loading {
@@ -211,8 +163,8 @@
 
     &.btn--small--secondary,
     &.btn-small2 { // used in sitecore
-        background: $button-bg-primary;
-        color: $button-text-primary;
+        background: $proj-colour-15;
+        color: $button-text-secondary;
         border-radius: 5px;
         white-space: pre;
 
@@ -247,8 +199,8 @@
 
     &.btn--small--tertiary,
     &.btn-small3 { // used in sitecore
-        background: $button-bg-quinary;
-        color: $button-text-quaternary;
+        background: $proj-colour-15;
+        color: $button-text-secondary;
         font-size: 16px;
         padding: 8px 0;
         line-height: 16px;
@@ -267,8 +219,8 @@
 
     &.btn--small--quaternary,
     &.btn-small4 { // used in sitecore
-        background: $button-bg-senary;
-        color: $button-text-primary;
+        background: $proj-colour-15;
+        color: $button-text-secondary;
         border-radius: 5px;
         white-space: pre;
 
@@ -347,7 +299,7 @@
 
     &:hover {
         * {
-            font-family: $font-family-body;
+            font-family: $font-family-heading;
         }
     }
 
