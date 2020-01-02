@@ -8,7 +8,7 @@
     font-size: 18px;
     line-height: 18px;
     border-radius: 7px;
-    text-transform: uppercase;
+    
     white-space: normal;
     box-shadow: 0 5px 10px -3px rgba(0, 0, 0, .28);
     transition: all .3s ease-in-out;
@@ -357,7 +357,7 @@
         border-right: 1px solid $proj-colour-15;
         padding-right: 5px;
         margin-right: 5px;
-        text-transform: capitalize;
+        
 
         @include breakpoint(xs-max) {
             font-size: 12px;
@@ -375,7 +375,7 @@
     &__subtext {
         font-size: 10px;
         color: $proj-colour-15;
-        text-transform: capitalize;
+        
     }
 
     &__price {

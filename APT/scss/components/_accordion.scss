@@ -31,7 +31,7 @@ $panel-space-xs: 75px;
                 #{$kwa-page-selector} & {
                     color: $proj-colour-kwa-02;
                 }
-                text-transform: capitalize;
+                
                 @include breakpoint(xs-max) {
                     font-size: 18px;
                 }

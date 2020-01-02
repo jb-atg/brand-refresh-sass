@@ -404,7 +404,7 @@
         background-color: $proj-colour-15;
         width: 100%;
         font-family: $font-family-body;
-        text-transform: uppercase;
+        
         text-decoration: none;
         border: 2px solid transparent;
         position: relative;
@@ -455,7 +455,7 @@
             transform: translate(-50%, 0);
             clear: both;
             white-space: nowrap;
-            text-transform: uppercase;
+            
         }
 
         &__info {

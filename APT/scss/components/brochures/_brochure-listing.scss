@@ -50,7 +50,7 @@
             &:last-of-type {
                 margin-bottom: 0 !important;
             }
-            text-transform: uppercase;
+            
         }
         @include breakpoint(xs-max) {
             width: 100%;

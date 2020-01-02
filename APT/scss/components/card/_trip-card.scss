@@ -28,7 +28,7 @@ $trip-card-block-height: 50px;
             margin-top: -23px;
             left: 50%;
             transform: translate(-50%, 0);
-            text-transform: uppercase;
+            
             text-align: center;
             font-size: 15px;
             padding: 2px 15px;
@@ -78,7 +78,7 @@ $trip-card-block-height: 50px;
             }
         }
         &__title {
-            text-transform: capitalize;
+            
             text-align: left;
             min-height: $trip-card-block-height;
             color: $proj-colour-05; // specifically overriding any KWA colours (trip cards should always look the same)
@@ -92,7 +92,7 @@ $trip-card-block-height: 50px;
         }
         &__detail,
         &__travelclass {
-            text-transform: uppercase;
+            
             font-family: $font-family-body;
         }
         &__date {
@@ -101,7 +101,7 @@ $trip-card-block-height: 50px;
             border-right: 1px solid $proj-colour-15;
             padding-right: 5px;
             margin-right: 5px;
-            text-transform: capitalize;
+            
             font-size: 12px;
             @include breakpoint(sm) {
                 font-size: 13px;
@@ -113,7 +113,7 @@ $trip-card-block-height: 50px;
         &__subtext {
             font-size: 10px;
             color: $proj-colour-15;
-            text-transform: capitalize;
+            
         }
         &__price {
             color: $proj-colour-15;

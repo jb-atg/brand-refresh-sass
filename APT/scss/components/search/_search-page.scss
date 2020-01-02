@@ -46,7 +46,7 @@
             transform: translateX(-50%);
             font-family: $font-family-body;
             font-size: 16px;
-            text-transform: uppercase;
+            
             color: $proj-colour-15;
             .tab-icon {
                 position: absolute;
@@ -75,7 +75,7 @@
                 background: none;
                 border: 0;
                 outline: none;
-                text-transform: uppercase;
+                
                 position: absolute;
                 left: 100%;
                 top: 0;
@@ -297,7 +297,7 @@
             }
         }
         &__heading {
-            text-transform: capitalize;
+            
             color: $proj-colour-12;
         }
         &__body {

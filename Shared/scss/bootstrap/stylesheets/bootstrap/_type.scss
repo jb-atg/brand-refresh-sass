@@ -95,8 +95,8 @@ mark,
 
 // Transformation
 .text-lowercase      { text-transform: lowercase; }
-.text-uppercase      { text-transform: uppercase; }
-.text-capitalize     { text-transform: capitalize; }
+.text-uppercase      {  }
+.text-capitalize     {  }
 
 // Contextual colors
 .text-muted {
@@ -234,7 +234,6 @@ abbr[data-original-title] {
 
 .initialism {
   font-size: 90%;
-  @extend .text-uppercase;
 }
 
 // Blockquotes

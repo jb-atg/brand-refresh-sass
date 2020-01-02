@@ -7,7 +7,7 @@ $trip-itinerary-day-options-left-margin-desktop: 3rem;
     margin: 15px 0;
 
     &__experience-title {
-        text-transform: uppercase;
+        
     }
 
     .trip-itinerary-panel {
@@ -39,7 +39,7 @@ $trip-itinerary-day-options-left-margin-desktop: 3rem;
                     display: block;
                     color: $proj-colour-15;
                     font-size: 18px;
-                    text-transform: uppercase;
+                    
                 }
 
                 &__number {
@@ -94,7 +94,7 @@ $trip-itinerary-day-options-left-margin-desktop: 3rem;
                 display: inline-block;
                 color: $proj-colour-06;
                 font-family: $trip-itinerary-font--secondary;
-                text-transform: capitalize;
+                
                 margin-right: 10px;
 
                 @if $kwa-page-selector {
@@ -400,7 +400,7 @@ $trip-itinerary-day-options-left-margin-desktop: 3rem;
         }
 
         &--apt {
-            text-transform: uppercase;
+            
             border: 5px;
         }
     }

@@ -60,7 +60,7 @@
         left: 50%;
         transform: translate(-50%, 0);
         white-space: nowrap;
-        text-transform: uppercase;
+        
         text-align: center;
         color: $proj-colour-15;
         font-size: 14px;
@@ -92,7 +92,7 @@
     &__title {
         font-size: 26px;
         line-height: normal;
-        text-transform: capitalize;
+        
         margin: 0;
 
         @include breakpoint(sm) {
@@ -117,7 +117,7 @@
         font-family: $font-family-body;
         font-size: 26px;
         line-height: normal;
-        text-transform: uppercase;
+        
 
         &__heading {
             margin-bottom: 0px;
@@ -277,7 +277,7 @@
     }
 
     &__date {
-        text-transform: capitalize;
+        
         white-space: nowrap;
         color: $proj-colour-15;
         border-right: 1px solid $proj-colour-15;
@@ -293,7 +293,7 @@
     &__code {
         font-family: $font-family-body;
         color: $proj-colour-12;
-        text-transform: uppercase;
+        
 
         @include breakpoint(xs-max) {
             font-size: 11px;
@@ -308,7 +308,7 @@
     }
 
     &__subtext {
-        text-transform: capitalize;
+        
     }
 
     &__perperson {
