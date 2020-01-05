@@ -180,6 +180,7 @@ $trip-card-block-height: 50px;
         transform: translate(-50%, 0);
         font-size: 1rem;
         z-index: 100;
+        font-family:$font-family-pull-out;
         white-space: nowrap;
         @include breakpoint(xxs-max) {
             padding-left: 10px;
@@ -238,6 +239,7 @@ $trip-card-block-height: 50px;
         top: -15px;
         left: 50%;
         transform: translateX(-50%) translateZ(0);
+        font-family:$font-family-pull-out;
     }
 
     .trip-card__link {
@@ -287,6 +289,7 @@ $trip-card-block-height: 50px;
         left: 50%;
         transform: translate(-50%, 0);
         white-space: nowrap;
+        font-family:$font-family-pull-out;
     }
 
     .trip-card__content {
@@ -367,6 +370,7 @@ $trip-card-block-height: 50px;
         white-space: nowrap;
         display: inline-block;
         margin-bottom: 15px;
+        font-family:$font-family-pull-out;
     }
 
     .trip-card__detail {

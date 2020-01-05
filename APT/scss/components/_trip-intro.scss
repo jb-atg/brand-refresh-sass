@@ -54,6 +54,7 @@
     }
 
     &__badge {
+        font-family:$font-family-pull-out;
         display: block;
         position: absolute;
         top: -20px;

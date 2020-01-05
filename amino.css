@@ -242,4 +242,197 @@ color:var(--primary-color)!important;
 .footer-bar 
  [alt="Live Fully Brand Proposition "] {
      display:none;
- }*/
+ }
+ 
+ 
+ @import url('https://rawcdn.githack.com/jb-atg/font-upload/7d96573232882f97ec1257fe0ee5ca29f274fa6f/style.css');
+:root {
+    --primary-color: #122F60;
+    --secondary-color: #DCE9EE;
+}
+
+
+// Typography 
+body, p, li {
+     font-family: 'Maison Neue'!important;
+     text-transform: unset!important;
+     line-height: 1.5;
+     color: #333;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, {
+font-family: 'Gilroy'!important;
+text-transform: unset!important;
+color:var(--primary-color);
+}
+
+.h7 {
+     color: #333!important;
+}
+
+// colors
+
+.bg-primary {
+    background:var(--primary-color)!important;
+}
+
+// icons
+a:before,i:not([class*="-nav"]) , [class*="-icon"], div:before {
+    border-color:var(--primary-color)!important;
+    color:var(--primary-color)!important;
+}
+
+
+// buttons 
+a, .btn, button  {
+    box-shadow:none!important;
+    font-family: 'Gilroy'!important;
+text-transform: unset!important;
+}
+
+.btn.btn--primary {
+background:var(--primary-color)!important;
+}
+
+.btn.btn--secondary, .btn.btn--tertiary, .btn.btn--quaternary, .btn.btn--quinary,.btn--small {
+border:1px solid rgb(5,35,51)!important;
+color:var(--primary-color)!important;
+background:transparent!important;
+}
+
+//badges 
+
+[class*="badge"] {
+font-family: 'Gilroy'!important;
+text-transform: unset!important;
+}
+
+[class*="badge"].red {
+ background-color:var(--secondary-color)!important;
+color:var(--primary-color)!important;
+}
+
+
+
+// Carousel 
+
+.page-heading.quicksearch-hero__title {
+    text-shadow: none!important;
+    font-size:4rem;
+    line-height:1;
+}
+.quicksearch-hero__tagline {
+        text-shadow: none!important;
+        font-weight:bold;
+}
+
+.overlay-35:before {
+    background: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 100%), linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);
+    position: fixed;
+}
+
+// carousel-fixed-background 
+.quicksearch-hero-carousel .owl-stage-outer,.quicksearch-hero-carousel .owl-stage,.quicksearch-hero-carousel .owl-item {
+    transform:unset!important;
+} 
+
+.quicksearch-hero-carousel picture {
+    position:absolute;
+    clip:rect(0,100vw,85vh,0);
+}
+
+.quicksearch-hero-carousel picture img {
+    position:fixed;
+}
+
+// live fully image githack
+article img[alt="LIVE FULLY"] {
+display:none;
+
+}
+
+article .anniversary-logo-wrapper {
+    padding:1rem;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    
+}
+
+article .anniversary-logo-wrapper:before {
+display:block;
+content:'Live Fully';
+ font-family: 'Gilroy'!important;
+ font-size:4rem;
+ line-height:1.25;
+text-align: left;
+width:100%;
+}
+
+article .anniversary-logo-wrapper:after {
+display:block;
+content:'Choose your dream holiday';
+ font-family: 'Gilroy'!important;
+ font-size:2.5rem;
+  line-height:2.5rem;
+text-align: left;
+color:var(--primary-color)!important;
+margin-bottom:1rem
+}
+
+h2.text-center.section-header__title{
+ display:none;
+}
+
+// newsletter section-header__title
+
+.newsletter-subscription.bg-newsletter {
+    background-image:unset;
+     background-color:var(--primary-color)!important;
+    
+}
+
+.signup-title.newsletter-subscription-title {
+text-transform:lowercase!important;
+color:#fff;
+}
+
+
+.signup-title.newsletter-subscription-title:first-letter {
+    text-transform: uppercase;
+}
+
+// Testimonial 
+.testimonial-container:before {
+    display:none!important;
+}
+
+.testimonial-container {
+    background-image:unset!important;
+    background:var(--secondary-color);
+   
+}
+
+[class*="testimonial-content"] {
+     font-family: Tiempos!important;
+color:var(--primary-color)!important;     
+
+}
+
+
+// Tabs 
+[class*="trip-tab"] {
+    font-family: 'Gilroy'!important;
+color:var(--primary-color)!important;     
+
+}
+
+// footer 
+
+.footer-bar 
+ [alt="Live Fully Brand Proposition "] {
+     display:none;
+ }
+ 
+ 
+ 
+ */
