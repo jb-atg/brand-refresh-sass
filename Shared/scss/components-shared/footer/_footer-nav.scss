@@ -41,8 +41,9 @@
             font-family: $footer-nav-desktop-listitem-font-family;
 
             a {
-                font-family: $font-family-body;
+                font-family: $font-family-body!important;
                 font-size: $footer-nav-desktop-listitem-font-size;
+                font-weight:400!important;
                 color: $footer-nav-desktop-listitem-colour;
 
                 &:hover {
