@@ -25,14 +25,14 @@
     font-size: 12px;
 }
 
-// set line -height 
-body, p, li {
-    line-height:1.5rem!important;
-} 
-
 // global overide of text transform because this property is set in so many different places 
 html body *{
     text-transform: unset!important;
+}
+
+// global overide of letter spacing 
+html body * {
+    letter-spacing: 0.025rem;
 }
 
 // set font family for headings links and buttons
@@ -45,25 +45,26 @@ h6,
 a,
 button {
 font-family: $font-family-heading!important;
+letter-spacing: 0.025rem;
 }
 
-// Headings
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: normal;
-    font-style: normal;
+// Increase font size globally because everything is now lowercase
+html {
+    font-size:17px;
 }
+
+// set global line height 
+body, p, li {
+    line-height:1.5rem!important;
+} 
+
 
 h1 {
     // font-size 35px line-height 43px - mobile
     // font-size 40px line-height 50px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: 2.5rem;
+    font-size: calc(2.5rem * 1.05);
     line-height: 3.125rem;
      text-transform: unset;
     margin-top: $margin-xlg;
@@ -83,7 +84,7 @@ h2 {
     // font-size 36px line-height 42px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: rem(34px);
+    font-size: calc(rem(34px) * 1.05);
     line-height: 2.625rem;
     margin-top: 3.75rem; // 60px
     margin-bottom: 2.5rem; // 40px
@@ -102,7 +103,7 @@ h3 {
     // font-size 32px line-height 38px - tablet/desktop
     
     color: $proj-colour-02;
-    font-size: 2rem;
+    font-size: calc(2rem  * 1.05);
     line-height: 2.375rem;
     font-weight: bold;
 }
@@ -116,7 +117,7 @@ h4 {
     // font-size 26px line-height 30px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: 1.625rem;
+    font-size: calc(1.625rem  * 1.05);
     line-height: 1.875rem;
     font-weight: bold;
 
@@ -134,7 +135,7 @@ h5 {
     // font-size 24px line-height 30px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: 1.5rem;
+    font-size: calc(1.5rem  * 1.05);
     line-height: 1.875rem;
     margin-top: 28px;
     font-weight: bold;
@@ -153,7 +154,7 @@ h6 {
     // font-size 20px line-height 24px - tablet/desktop
     
     color: $proj-colour-02;
-    font-size: 1.25rem;
+    font-size: calc(1.25rem * 1.05);
     line-height: 1.5rem;
 }
 
@@ -165,7 +166,7 @@ h6 {
     
     color: $proj-colour-12;
     line-height: 20px;
-    font-size: 16px;
+    font-size: calc(16px * 1.05);
     margin-top: 15px;
     font-weight: bold;
 }
@@ -174,14 +175,14 @@ h6 {
     
     color: $proj-colour-12;
     line-height: 34px;
-    font-size: 14px;
+    font-size: calc(14px * 1.05);
     font-weight: bold;
 }
 
 .h9 {
     color: $proj-colour-12;
     line-height: 22px;
-    font-size: 18px;
+    font-size: calc(18px * 1.05);
 }
 
 // Global Heading classes - allows in keeping heading semantics more abstract

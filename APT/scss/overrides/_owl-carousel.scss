@@ -55,7 +55,7 @@
             .owl-next,
             .owl-prev {
                 background: $proj-colour-15;
-                box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+                box-shadow:unset;
                 width: 35px;
                 height: 70px;
                 position: absolute;
@@ -75,7 +75,7 @@
 
             .owl-prev {
                 border-radius: 0 50px 50px 0;
-                box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+                box-shadow:unset;
                 left: 0;
                 &:before {
                     @include icon(icon-leftarrow);
@@ -84,7 +84,7 @@
             }
             .owl-next {
                 border-radius: 50px 0 0 50px;
-                box-shadow: -2px 2px 5px 0 rgba(0, 0, 0, .2);
+                box-shadow:unset;
                 right: 0;
                 &:before {
                     @include icon(icon-rightarrow);
@@ -120,7 +120,7 @@
             .owl-next,
             .owl-prev {
                 background: $proj-colour-15;
-                box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+                box-shadow:unset;
                 width: 65px;
                 height: 65px;
                 border-radius: 100%;
@@ -142,7 +142,7 @@
 
                 @include breakpoint(xs-max) {
                     background: $proj-colour-15;
-                    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+                    box-shadow:unset;
                     width: 35px;
                     height: 70px;
                 }
@@ -281,7 +281,7 @@
             // APT/KWA Theme Req.
             border-radius: 50%; // themed element
             border: 0;
-            box-shadow: rem(0 3px 5px 0) rgba(0, 0, 0, .2);
+            box-shadow:unset;
             background-color: $color-white;
             #{$kwa-page-selector} & {
                 background: $proj-colour-kwa-01;

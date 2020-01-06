@@ -4,7 +4,7 @@ $trip-card-block-height: 50px;
     position: relative;
     width: 100%;
     background: $proj-colour-15;
-    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+    box-shadow: unset;
     margin-bottom: 10px;
     padding-bottom: 15px;
 
@@ -189,7 +189,6 @@ $trip-card-block-height: 50px;
     }
 
     .trip-card__detail {
-        font-size: 12px;
     }
 
     .trip-card__travelclass {
@@ -208,7 +207,7 @@ $trip-card-block-height: 50px;
 
 @mixin trip-card-xs-carousel() {
     margin-bottom: 50px;
-    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+      box-shadow: unset;
 
     .trip-card__medialink {
         overflow: hidden;
@@ -253,12 +252,10 @@ $trip-card-block-height: 50px;
 
     .trip-card__detail {
         text-align: center;
-        font-size: 12px;
     }
 
     .trip-card__travelclass {
         text-align: center;
-        font-size: 12px;
     }
 
     .trip-card__info {
@@ -272,7 +269,7 @@ $trip-card-block-height: 50px;
 @mixin trip-card-small() {
     margin-bottom: 50px;
     padding-bottom: 15px;
-    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+      box-shadow: unset;
 
     .trip-card__medialink {
         width: 100%;
@@ -315,7 +312,7 @@ $trip-card-block-height: 50px;
     .trip-card__detail,
     .trip-card__travelclass {
         text-align: center;
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     .trip-card__info {
@@ -333,7 +330,7 @@ $trip-card-block-height: 50px;
 @mixin trip-card-large() {
     width: auto;
     margin: 10px 0;
-    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, .1);
+    box-shadow: unset;
 
     .trip-card__content {
         text-align: center;
@@ -374,7 +371,7 @@ $trip-card-block-height: 50px;
     }
 
     .trip-card__detail {
-        font-size: 14px;
+        font-size: 1rem;
         margin-bottom: 20px;
     }
 
