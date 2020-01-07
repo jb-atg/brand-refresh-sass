@@ -54,7 +54,7 @@
     }
 
     &__badge {
-        font-family:$font-family-pull-out;
+        font-family:$font-family-body;
         display: block;
         position: absolute;
         top: -20px;
@@ -65,7 +65,7 @@
         text-transform:unset;
         text-align: center;
         color: $proj-colour-11;
-        font-size: 14px;
+        font-size: 1rem;
         padding: 7.5px 20px;
 
         @include breakpoint(sm) {
@@ -75,7 +75,8 @@
         }
 
         &.red {
-            background: $proj-colour-09;
+            background: #ec7366;
+            color:#fff;
         }
 
         &.blue {

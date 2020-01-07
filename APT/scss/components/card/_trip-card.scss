@@ -31,13 +31,14 @@ $trip-card-block-height: 50px;
             font-weight:bold;
             text-transform:unset;
             text-align: center;
-            font-size: 15px;
+            font-size: 1rem;
             padding: 2px 15px;
             white-space: nowrap;
             color: $proj-colour-11;
             transition: opacity .3s ease-in-out;
             &.red {
-                background: $proj-colour-09;
+                background: #ec7366;
+                color:#fff;
             }
             &.blue {
                 background: $proj-colour-06;
@@ -180,7 +181,7 @@ $trip-card-block-height: 50px;
         transform: translate(-50%, 0);
         font-size: 1rem;
         z-index: 100;
-        font-family:$font-family-pull-out;
+        font-family:$font-family-body;
         white-space: nowrap;
         @include breakpoint(xxs-max) {
             padding-left: 10px;
@@ -238,7 +239,7 @@ $trip-card-block-height: 50px;
         top: -15px;
         left: 50%;
         transform: translateX(-50%) translateZ(0);
-        font-family:$font-family-pull-out;
+        font-family:$font-family-body;
     }
 
     .trip-card__link {
@@ -286,7 +287,7 @@ $trip-card-block-height: 50px;
         left: 50%;
         transform: translate(-50%, 0);
         white-space: nowrap;
-        font-family:$font-family-pull-out;
+        font-family:$font-family-body;
     }
 
     .trip-card__content {
@@ -367,7 +368,7 @@ $trip-card-block-height: 50px;
         white-space: nowrap;
         display: inline-block;
         margin-bottom: 15px;
-        font-family:$font-family-pull-out;
+        font-family:$font-family-body;
     }
 
     .trip-card__detail {
