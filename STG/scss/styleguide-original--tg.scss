@@ -224,11 +224,11 @@
         }
 
         &--secondary {
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
         }
 
         &--tertiary {
-            font-family: $font-family-body;
+            font-family: $font-family-secondary;
         }
     }
 }
