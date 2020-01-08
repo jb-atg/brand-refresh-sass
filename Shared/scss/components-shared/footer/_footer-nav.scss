@@ -20,7 +20,7 @@
             color: $footer-nav-desktop-header-colour;
             font-size: $footer-nav-header-primary-font-size;
             font-weight: bold;
-            
+            text-transform: uppercase;
         }
 
         .footer-nav-list-header {
@@ -41,9 +41,8 @@
             font-family: $footer-nav-desktop-listitem-font-family;
 
             a {
-                font-family: $font-family-body!important;
+                font-family: $font-family-secondary;
                 font-size: $footer-nav-desktop-listitem-font-size;
-                font-weight:400!important;
                 color: $footer-nav-desktop-listitem-colour;
 
                 &:hover {

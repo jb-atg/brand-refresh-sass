@@ -45,7 +45,7 @@
 
                 &__title {
                     padding: 1.25rem 2.1875rem;
-                    
+                    text-transform: capitalize;
                     font-size: inherit;
                     line-height: 1.5625rem;
                     margin-top: 0;
@@ -105,7 +105,7 @@
             }
 
             &__promo-title {
-                
+                text-transform: uppercase;
                 font-size: 1.125rem;
                 margin-top: 0;
                 margin-bottom: .625rem;
@@ -169,13 +169,13 @@
 
             &__price {
                 color: $proj-colour-06;
-                font-family: $font-family-body;
+                font-family: $font-family-secondary;
             }
 
             &__deposit-amount {
                 font-size: 1.125rem;
                 margin-bottom: 0;
-                font-family: $font-family-body;
+                font-family: $font-family-secondary;
             }
 
             &__deposit-note {
@@ -297,7 +297,7 @@
             border-top-style: solid;
 
             &__deposit-amount {
-                font-family: $font-family-body;
+                font-family: $font-family-secondary;
             }
 
             &__book {
@@ -349,7 +349,7 @@
         padding: 0.625rem;
         background: $proj-colour-02;
         color: $proj-colour-15;
-        font-family: $font-family-body;
+        font-family: $font-family-secondary;
         font-size: .975rem;
         line-height: 3.875rem;
         text-align: left;

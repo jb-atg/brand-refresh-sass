@@ -22,13 +22,13 @@
 
             .nav-heading-link {
                 color: $footer-nav-mobile-link-color;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
 
                 &:hover,
                 &:active,
                 &:focus {
                     color: $proj-colour-05;
-                    font-family: $font-family-body;
+                    font-family: $font-family-primary;
                     text-decoration: none;
                 }
             }
@@ -57,7 +57,7 @@
             height: 100%;
             padding: 0;
             text-align: center;
-            
+            text-transform: uppercase;
             font-family: $footer-nav-mobile-font;
             border: 0;
 
@@ -115,7 +115,7 @@
         border: $footer-nav-mobile-border;
         @include placeholder($proj-colour-05);
         font-size: 15px;
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         height: 53px;
         background-color: $proj-colour-15;
         width: 100%;
@@ -130,7 +130,7 @@
             @include placeholder-content {
                 text-align: left;
                 color: $proj-colour-12;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 font-size: 1rem;
             }
 
