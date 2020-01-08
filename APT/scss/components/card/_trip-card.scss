@@ -26,20 +26,19 @@ $trip-card-block-height: 50px;
         &__badge {
             display: block;
             position: absolute;
-            margin-top: -28px;
+            margin-top: -32px;
             left: 50%;
             transform: translate(-50%, 0);
             font-weight:bold;
             text-transform:unset;
             text-align: center;
-            font-size: 1.1rem;
-            padding: 4px 15px;
+            font-size: 1.25rem;
+            padding: 0px 15px;
             white-space: nowrap;
             color: $proj-colour-11;
             transition: opacity .3s ease-in-out;
             &.red {
-                background: #ec7366;
-                color:#fff;
+                background: $proj-colour-40;
             }
             &.blue {
                 background: $proj-colour-06;
@@ -70,7 +69,7 @@ $trip-card-block-height: 50px;
             padding: 8px 15px;
             &:hover {
                 * {
-                    font-family: $font-family-secondary;
+                    font-family: $font-family-primary;
                 }
             }
             @include breakpoint(sm) {
@@ -96,7 +95,7 @@ $trip-card-block-height: 50px;
         &__detail,
         &__travelclass {
             
-            font-family: $font-family-secondary;
+            font-family: $font-family-primary;
         }
         &__date {
             white-space: nowrap;
@@ -180,7 +179,7 @@ $trip-card-block-height: 50px;
         margin: 0;
         left: 50%;
         transform: translate(-50%, 0);
-        font-size: 1rem;
+        font-size: 1.25rem;
         z-index: 100;
         font-family:$font-family-primary;
         white-space: nowrap;

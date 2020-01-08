@@ -55,8 +55,9 @@ h5,
 h6,
 a,
 button {
-font-family: $font-family-secondary!important;
+font-family: $font-family-primary!important;
 letter-spacing: 0.025rem;
+font-weight:bold;
 }
 
 
@@ -65,8 +66,8 @@ h1 {
     // font-size 40px line-height 50px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(2.5rem * 1.1);
-    line-height: calc(3.125rem * 1.1);
+    font-size: calc(2.5rem * 1.25);
+    line-height: calc(3.125rem * 1.25);
      text-transform: unset;
     margin-top: $margin-xlg;
     margin-bottom: $margin-sm;
@@ -85,8 +86,8 @@ h2 {
     // font-size 36px line-height 42px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(34px * 1.1);
-    line-height: calc(2.625rem * 1.1);
+    font-size: calc(34px * 1.25);
+    line-height: calc(2.625rem * 1.25);
     margin-top: 3.75rem; // 60px
     margin-bottom: 2.5rem; // 40px
 
@@ -104,8 +105,8 @@ h3 {
     // font-size 32px line-height 38px - tablet/desktop
     
     color: $proj-colour-02;
-    font-size: calc(2rem  * 1.1);
-    line-height: calc(2.375rem * 1.1);
+    font-size: calc(2rem  * 1.25);
+    line-height: calc(2.375rem * 1.25);
     font-weight: bold;
 }
 
@@ -118,8 +119,8 @@ h4 {
     // font-size 26px line-height 30px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(1.625rem  * 1.1);
-    line-height: calc(1.875rem * 1.1);
+    font-size: calc(1.625rem  * 1.25);
+    line-height: calc(1.875rem * 1.25);
     font-weight: bold;
 
     #{$kwa-page-selector} & {
@@ -136,8 +137,8 @@ h5 {
     // font-size 24px line-height 30px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(1.5rem  * 1.1);
-    line-height: calc(1.875rem * 1.1);
+    font-size: calc(1.5rem  * 1.25);
+    line-height: calc(1.875rem * 1.25);
     margin-top: 28px;
     font-weight: bold;
 
@@ -155,8 +156,8 @@ h6 {
     // font-size 20px line-height 24px - tablet/desktop
     
     color: $proj-colour-02;
-    font-size: calc(1.1rem * 1.1);
-    line-height: calc(1.5rem * 1.1);
+    font-size: calc(1.25rem * 1.25);
+    line-height: calc(1.5rem * 1.25);
 }
 
 .h6 {
@@ -166,8 +167,8 @@ h6 {
 .h7 {
     
     color: $proj-colour-12;
-    line-height: calc(20px * 1.1);
-    font-size: calc(16px * 1.1);
+    line-height: calc(20px * 1.25);
+    font-size: calc(16px * 1.25);
     margin-top: 15px;
     font-weight: bold;
 }
@@ -175,15 +176,15 @@ h6 {
 .h8 {
     
     color: $proj-colour-12;
-    line-height: calc(34px * 1.1);
-    font-size: calc(14px * 1.1);
+    line-height: calc(34px * 1.25);
+    font-size: calc(14px * 1.25);
     font-weight: bold;
 }
 
 .h9 {
     color: $proj-colour-12;
-    line-height: calc(22px * 1.1);
-    font-size: calc(18px * 1.1);
+    line-height: calc(22px * 1.25);
+    font-size: calc(18px * 1.25);
 }
 
 // Global Heading classes - allows in keeping heading semantics more abstract
@@ -193,8 +194,8 @@ h6 {
     // font-size 40px line-height 50px - tablet/desktop
     
     color: $proj-colour-06;
-    font-size: calc(2.5rem * 1.1);
-    line-height: calc(3.125rem * 1.1);
+    font-size: calc(2.5rem * 1.25);
+    line-height: calc(3.125rem * 1.25);
     font-weight: bold;
 
 }
@@ -204,8 +205,8 @@ h6 {
     // font-size 36px line-height 42px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(2.25rem * 1.1);
-    line-height: calc(2.625rem * 1.1);
+    font-size: calc(2.25rem * 1.25);
+    line-height: calc(2.625rem * 1.25);
     margin-top: 3.75rem; // 60px
     margin-bottom: 2.5rem; // 40px
 }
@@ -215,8 +216,8 @@ h6 {
     // font-size 32px line-height 38px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(2rem * 1.1);
-    line-height: calc(2.375rem * 1.1);
+    font-size: calc(2rem * 1.25);
+    line-height: calc(2.375rem * 1.25);
     font-weight: bold;
      text-transform: unset;
 }
@@ -226,8 +227,8 @@ h6 {
     // font-size 24px line-height 30px - tablet/desktop
     
     color: $proj-colour-05;
-    font-size: calc(1.5rem * 1.1);
-    line-height: calc(1.875rem * 1.1);
+    font-size: calc(1.5rem * 1.25);
+    line-height: calc(1.875rem * 1.25);
     font-weight: bold;
      text-transform: unset;
 }
@@ -237,8 +238,8 @@ h6 {
     // font-size 18px line-height 24px - tablet/desktop
     
     color: $proj-colour-12;
-    font-size: calc(1.125rem * 1.1);
-    line-height: calc(1.5rem * 1.1);
+    font-size: calc(1.2525rem * 1.25);
+    line-height: calc(1.5rem * 1.25);
 }
 
 // Weight style and text
@@ -247,8 +248,8 @@ p {
     // font-size 16px - mobile
     // font-size 18px - tablet/desktop
     
-    font-size: 1.1rem;
-    margin-bottom: 1.1rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
     line-height: 32px;
 }
 

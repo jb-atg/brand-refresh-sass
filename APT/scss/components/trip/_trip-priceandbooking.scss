@@ -163,7 +163,7 @@
             border-radius: 4px;
             height: 92px;
             width: 100%;
-            box-shadow: 2px 4px 4px rgba(0, 0, 0, .2);
+            box-shadow: unset;
         }
 
         @include breakpoint(sm) {
@@ -171,7 +171,7 @@
             height: 115px;
             width: 263px;
             display: inline-block;
-            box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
+            box-shadow:unset;
 
             &:not(:first-of-type) {
                 margin-left: 30px;
@@ -352,7 +352,7 @@
                 .owl-prev,
                 .owl-next {
                     border-radius: 4px;
-                    box-shadow: 2px 4px 4px rgba(0, 0, 0, .2);
+                    box-shadow: unset;
                 }
             }
 
@@ -395,7 +395,7 @@
                 .owl-prev,
                 .owl-next {
                     border-radius: 8px;
-                    box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
+                    box-shadow: unset;
                 }
             }
         }
@@ -405,8 +405,8 @@
         display: block;
         background-color: $proj-colour-15;
         width: 100%;
-        font-family: $font-family-secondary;
-
+        font-family: $font-family-primary;
+font-weight:bold;
         text-decoration: none;
         border: 2px solid transparent;
         position: relative;
@@ -448,9 +448,9 @@
         }
 
         &__header-message {
-            background-color: #ec7366;
+            background-color: $proj-colour-40;
             text-align: center;
-            color: $proj-colour-15;
+            color: $proj-colour-11;
             position: absolute;
             z-index: 1;
             left: 50%;
@@ -689,7 +689,7 @@
         @include breakpoint(sm) {
             margin-bottom: 23px;
             border-radius: 8px;
-            box-shadow: 0 6px 6px rgba(0, 0, 0, .2);
+            box-shadow: unset;
             min-height: 100px;
             padding-top: 20px;
 
@@ -805,7 +805,7 @@
         @include breakpoint(xs-max) {
             margin-bottom: 20px;
             border-radius: 4px;
-            box-shadow: 2px 4px 4px rgba(0, 0, 0, .2);
+            box-shadow: unset;
             min-height: 89px;
             padding-top: 15px;
 

@@ -65,18 +65,17 @@
         text-transform:unset;
         text-align: center;
         color: $proj-colour-11;
-        font-size: 1rem;
-        padding: 10px 20px;
+        font-size: 1.25rem;
+        padding: 0px 20px;
 
         @include breakpoint(sm) {
-            font-size: 1.5rem;
-            padding: 10px 40px;
+            font-size: 1.75rem;
+            padding: 0px 40px;
 
         }
 
         &.red {
-            background: #ec7366;
-            color:#fff;
+            background: $proj-colour-40;
         }
 
         &.blue {
@@ -274,7 +273,7 @@
 
         &:hover {
             * {
-                font-family: $font-family-secondary;
+                font-family: $font-family-primary;
             }
         }
     }
