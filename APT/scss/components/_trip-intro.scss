@@ -54,7 +54,7 @@
     }
 
     &__badge {
-        font-family:$font-family-body;
+        font-family:$font-family-primary;
         display: block;
         position: absolute;
         top: -22.5px;
@@ -117,7 +117,7 @@
         position: relative;
         margin-top: 40px;
         margin-bottom: 0;
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         font-size: 26px;
         line-height: normal;
         
@@ -274,7 +274,7 @@
 
         &:hover {
             * {
-                font-family: $font-family-heading;
+                font-family: $font-family-secondary;
             }
         }
     }
@@ -294,7 +294,7 @@
     }
 
     &__code {
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         color: $proj-colour-12;
         
 

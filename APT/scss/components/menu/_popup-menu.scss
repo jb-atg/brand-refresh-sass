@@ -48,7 +48,7 @@
             }
 
             &.no-hover {
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 color: $proj-colour-05;
             }
 
@@ -64,7 +64,7 @@
                 &:hover {
                     color: inherit;
                     text-decoration: none;
-                    font-family: $font-family-body;
+                    font-family: $font-family-primary;
                 }
             }
         }

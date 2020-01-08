@@ -16,7 +16,7 @@
             @include placeholder-content {
                 text-align: left;
                 color: $proj-colour-12;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 font-size: 15.5px;
             }
 
@@ -45,7 +45,7 @@
             text-align: right;
             font-size: 14px;
             color: $proj-colour-12;
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
             text-decoration: none;
             margin-top: 3px;
             cursor: pointer;

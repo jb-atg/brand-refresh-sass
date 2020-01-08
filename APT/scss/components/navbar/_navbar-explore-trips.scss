@@ -36,7 +36,7 @@
             padding: 3px 8px;
             font-size: 12px;
 
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
             z-index: 1;
             line-height: 20px;
 
@@ -142,7 +142,7 @@
 
         a {
             font-size: 14px;
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
             color: $proj-colour-13;
 
             &:hover {
@@ -168,7 +168,7 @@
             opacity: 1;
             width: auto;
             display: inline;
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
             color: $proj-colour-03;
             font-size: 14px;
             background: none;

@@ -3,7 +3,7 @@
     padding: 16px 25px;
     outline: none;
     border: 1px solid transparent;
-    font-family: $font-family-heading;
+    font-family: $font-family-secondary;
     color: $button-text-primary;
     font-size: 18px;
     line-height: 18px;
@@ -26,7 +26,7 @@
     &:focus,
     &:active,
     &.active {
-        font-family: $font-family-heading;
+        font-family: $font-family-secondary;
         color: $button-text-primary;
     }
 }
@@ -303,7 +303,7 @@
 
     &:hover {
         * {
-            font-family: $font-family-heading;
+            font-family: $font-family-secondary;
         }
     }
 

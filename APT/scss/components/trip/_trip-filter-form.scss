@@ -87,7 +87,7 @@ $dropdown-arrow-width: rem(62px);
         transform: translateY(-$tab-height) rotate(90deg);
         transform-origin: left bottom;
 
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         font-size: 1rem;
         
         color: $proj-colour-15;
@@ -241,7 +241,7 @@ $dropdown-arrow-width: rem(62px);
         line-height: rem(50px);
         background: transparent;
         padding-left: rem(13px);
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         font-style: italic;
         font-size: 1rem;
         pointer-events: none;

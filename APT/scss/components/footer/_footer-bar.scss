@@ -8,7 +8,7 @@ $footer-bar-font-size-sm: 16px;
     line-height: $footer-bar-line-height-xs;
     padding: 24px 0 100px;
     font-size: $footer-bar-font-size-xs;
-    font-family: $font-family-body;
+    font-family: $font-family-primary;
     text-align: center;
     color: $proj-colour-15;
     background-color: $proj-colour-05;
@@ -53,7 +53,7 @@ $footer-bar-font-size-sm: 16px;
                 }
 
                 color: $proj-colour-15;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
 
                 &:hover {
                     color: $proj-colour-20;

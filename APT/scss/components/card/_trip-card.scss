@@ -70,7 +70,7 @@ $trip-card-block-height: 50px;
             padding: 8px 15px;
             &:hover {
                 * {
-                    font-family: $font-family-heading;
+                    font-family: $font-family-secondary;
                 }
             }
             @include breakpoint(sm) {
@@ -96,7 +96,7 @@ $trip-card-block-height: 50px;
         &__detail,
         &__travelclass {
             
-            font-family: $font-family-heading;
+            font-family: $font-family-secondary;
         }
         &__date {
             white-space: nowrap;
@@ -182,7 +182,7 @@ $trip-card-block-height: 50px;
         transform: translate(-50%, 0);
         font-size: 1rem;
         z-index: 100;
-        font-family:$font-family-body;
+        font-family:$font-family-primary;
         white-space: nowrap;
         @include breakpoint(xxs-max) {
             padding-left: 10px;
@@ -240,7 +240,7 @@ $trip-card-block-height: 50px;
         top: -15px;
         left: 50%;
         transform: translateX(-50%) translateZ(0);
-        font-family:$font-family-body;
+        font-family:$font-family-primary;
     }
 
     .trip-card__link {
@@ -288,7 +288,7 @@ $trip-card-block-height: 50px;
         left: 50%;
         transform: translate(-50%, 0);
         white-space: nowrap;
-        font-family:$font-family-body;
+        font-family:$font-family-primary;
     }
 
     .trip-card__content {
@@ -369,7 +369,7 @@ $trip-card-block-height: 50px;
         white-space: nowrap;
         display: inline-block;
         margin-bottom: 15px;
-        font-family:$font-family-body;
+        font-family:$font-family-primary;
     }
 
     .trip-card__detail {

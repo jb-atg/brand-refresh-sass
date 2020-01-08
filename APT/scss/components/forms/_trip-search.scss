@@ -30,7 +30,7 @@ $trip-search-widget-horizontal-padding: 1.15rem;
         width: 100%;
         height: $trip-search-widget-height;
         outline: none;
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         font-size: 1.25rem;
         cursor: pointer;
 
@@ -55,7 +55,7 @@ $trip-search-widget-horizontal-padding: 1.15rem;
 
         option {
             background-color: $proj-colour-15;
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
         }
     }
 
@@ -137,7 +137,7 @@ $trip-search-widget-horizontal-padding: 1.15rem;
 
             &:hover,
             &.active {
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 color: $proj-colour-05;
                 text-decoration: none;
             }

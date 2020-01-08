@@ -52,7 +52,7 @@
         &__link--back {
             cursor: pointer;
             font-size: 16px;
-            font-family: $font-family-body;
+            font-family: $font-family-primary;
             color: $proj-colour-15;
             position: relative;
             padding-left: 30px;
@@ -68,7 +68,7 @@
             &:hover {
                 color: $proj-colour-15;
                 text-decoration: none;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
             }
         }
     }
@@ -90,7 +90,7 @@
 
     &__section-description {
         text-transform: none;
-        font-family: $font-family-body;
+        font-family: $font-family-primary;
         color: $proj-colour-12;
 
         @include breakpoint(xs-max) {
@@ -269,7 +269,7 @@
 
             .currency-text {
                 display: block;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 font-size: 14px;
                 margin-top: 5px;
             }
@@ -405,7 +405,7 @@
         display: block;
         background-color: $proj-colour-15;
         width: 100%;
-        font-family: $font-family-heading;
+        font-family: $font-family-secondary;
 
         text-decoration: none;
         border: 2px solid transparent;
@@ -975,7 +975,7 @@
             }
 
             &__surcharge-note {
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 font-size: .875rem;
             }
         }
@@ -1007,7 +1007,7 @@
 
             &__surcharge-note {
                 font-size: .875rem;
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
             }
         }
 
@@ -1019,7 +1019,7 @@
                 margin-bottom: calc(-1 * (#{$card-padding} - 2px));
 
                 &__title {
-                    font-family: $font-family-body;
+                    font-family: $font-family-primary;
                 }
             }
         }

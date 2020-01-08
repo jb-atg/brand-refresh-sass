@@ -90,7 +90,7 @@ $global-nav-font-size: 16px;
         .navbar-dropdown {
             &.open {
                 .navbar-listitem-link {
-                    font-family: $font-family-body;
+                    font-family: $font-family-primary;
                     @include navbar-desktop-link-border-bottom(true);
                     text-decoration: none;
                 }
@@ -128,7 +128,7 @@ $global-nav-font-size: 16px;
             }
 
             &:hover {
-                font-family: $font-family-body;
+                font-family: $font-family-primary;
                 text-decoration: none;
                 @include navbar-desktop-link-border-bottom(true);
             }
