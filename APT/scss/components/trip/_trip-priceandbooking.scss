@@ -348,6 +348,7 @@
 
         @include breakpoint(xs-max) {
             .owl-nav {
+
                 .owl-prev,
                 .owl-next {
                     border-radius: 4px;
@@ -390,6 +391,7 @@
             }
 
             .owl-nav {
+
                 .owl-prev,
                 .owl-next {
                     border-radius: 8px;
@@ -403,8 +405,8 @@
         display: block;
         background-color: $proj-colour-15;
         width: 100%;
-        font-family: $font-family-body;
-        
+        font-family: $font-family-heading;
+
         text-decoration: none;
         border: 2px solid transparent;
         position: relative;
@@ -446,7 +448,7 @@
         }
 
         &__header-message {
-            background-color: $proj-colour-09;
+            background-color: #ec7366;
             text-align: center;
             color: $proj-colour-15;
             position: absolute;
@@ -455,7 +457,7 @@
             transform: translate(-50%, 0);
             clear: both;
             white-space: nowrap;
-            
+
         }
 
         &__info {
@@ -465,6 +467,7 @@
             margin-left: auto;
             float: right;
             font-size: 0; // prevent spaces between inline-blocks
+
             &:first-of-type {
                 width: calc(50% - 1px);
                 float: left;
@@ -502,7 +505,7 @@
                 }
             }
 
-            > * {
+            >* {
                 vertical-align: top;
             }
         }
@@ -698,10 +701,11 @@
                 padding-left: 14px;
                 padding-right: 14px;
                 min-width: 125px;
-                font-size: 11px;
-                line-height: 18px;
-                height: 18px;
-                top: -9px;
+                font-size: 1rem;
+                line-height: 1;
+                height: 1.5rem;
+                top: -.75rem;
+                padding-top: .25rem;
             }
 
             &__date-separator {
@@ -809,14 +813,6 @@
                 border-radius: 4px;
             }
 
-            &__header-message {
-                padding-left: 14px;
-                padding-right: 14px;
-                font-size: 11px;
-                line-height: 18px;
-                height: 18px;
-                top: -9px;
-            }
 
             &__date-separator {
                 height: 60px;
@@ -931,6 +927,7 @@
             }
 
             &__details {
+
                 .icon-leftarrow,
                 .icon-rightarrow {
                     font-size: .9375rem;

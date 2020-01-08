@@ -7,6 +7,7 @@ $trip-card-block-height: 50px;
     box-shadow: unset;
     margin-bottom: 10px;
     padding-bottom: 15px;
+    border:1px solid $proj-colour-14;
 
     .trip-card {
         &__medialink {
@@ -25,14 +26,14 @@ $trip-card-block-height: 50px;
         &__badge {
             display: block;
             position: absolute;
-            margin-top: -23px;
+            margin-top: -28px;
             left: 50%;
             transform: translate(-50%, 0);
             font-weight:bold;
             text-transform:unset;
             text-align: center;
-            font-size: 1rem;
-            padding: 2px 15px;
+            font-size: 1.1rem;
+            padding: 4px 15px;
             white-space: nowrap;
             color: $proj-colour-11;
             transition: opacity .3s ease-in-out;
@@ -283,7 +284,7 @@ $trip-card-block-height: 50px;
     .trip-card__badge {
         display: block;
         position: absolute;
-        margin-top: -23px;
+        margin-top: -32px;
         left: 50%;
         transform: translate(-50%, 0);
         white-space: nowrap;

@@ -1,5 +1,5 @@
 ﻿$trip-tabs-height-desktop: 64px;
-$trip-tabs-height-mobile: 64px;
+$trip-tabs-height-mobile: auto;
 
 .trip-tabs {
     transform: translateZ(0);
@@ -115,6 +115,7 @@ $trip-tabs-height-mobile: 64px;
         }
         .trip-tab-title {
             text-align: center;
+            line-height: 1.2;
             @include breakpoint(xs-max) {
                 display: block;
             }

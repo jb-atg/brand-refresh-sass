@@ -101,13 +101,21 @@
 
     .page-heading.quicksearch-hero__title {
         text-shadow: none!important;
-        font-size:4rem;
+        font-size:3rem;
         line-height:1;
+
+        @include breakpoint(sm) {
+            font-size:4rem;
+        }
     }
     .quicksearch-hero__tagline {
             text-shadow: none!important;
             font-weight:bold;
-            font-size:2rem;
+            font-size:1.5rem;
             line-height:1!important;
+
+            @include breakpoint(sm) {
+                font-size:2rem;
+            }
     }
 }
