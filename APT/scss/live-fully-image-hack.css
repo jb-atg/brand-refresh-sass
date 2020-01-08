@@ -1,0 +1,44 @@
+
+:root {
+    --primary-color: #122F60;
+    --secondary-color: #DCE9EE;
+}
+img.anniversary-logo {
+display:none;
+}
+
+
+article .anniversary-logo-wrapper {
+    padding:1rem;
+    padding-bottom: .5rem;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+
+article .anniversary-logo-wrapper:before {
+display:block;
+content:'Live Fully';
+ font-family: 'Gilroy'!important;
+ font-size:4rem;
+ line-height:1.25;
+text-align: left;
+width:100%;
+color:var(--primary-color)!important;
+}
+
+article .anniversary-logo-wrapper:after {
+display:block;
+content:'Choose your dream holiday';
+ font-family: 'Maison Neue'!important;
+ font-size:2.5rem;
+  line-height:2.5rem;
+text-align: left;
+color:var(--primary-color)!important;
+margin-bottom:1rem;
+font-weight:bold;
+}
+
+h2.text-center.section-header__title{
+ display:none;
+}
